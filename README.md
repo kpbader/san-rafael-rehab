@@ -4,7 +4,7 @@
 A website for an addiction/mental health clinic based in San Rafael, California
 
 ## Made with 
-* React
+* React.js
 * CSS
 * Node.js 
 

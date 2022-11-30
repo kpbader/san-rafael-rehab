@@ -1,8 +1,8 @@
 import './treatment.css';
 import Fade from 'react-reveal/Fade';
-// import crescentMoon from '../../assets/images/gavin-spear-unsplash.jpg';
-// import coastalSun from '../../assets/images/coastal-sunset-1.jpeg';
-// import desertRocks from '../../assets/images/alex-kramarevsky-unsplash.jpg';
+import redMoon from '../../assets/images/tsv-t.jpg';
+import treeTunnel from '../../assets/images/tree-tunnel.jpg';
+import redwood from '../../assets/images/dh-redwoods.jpg';
 import { useState, useRef } from 'react';
 
 
@@ -24,7 +24,7 @@ function Treatment() {
             </div>
             <div id="treatment-two">
                 <Fade left>
-                    {/* <img src={crescentMoon} alt="by Gavin Spears" /> */}
+                    <img src={redMoon} alt="by Tsv T" />
                 </Fade>
                 <Fade right>
                     <div id="treatment-two-text">
@@ -47,12 +47,12 @@ function Treatment() {
                     </div>
                 </Fade>
                 <Fade right>
-                    {/* <img src={desertRocks} alt="Alex Kramarevsky" /> */}
+                    <img src={treeTunnel} alt="Intricate Explorer" />
                 </Fade>
             </div>
             <div id="treatment-four">
                 <Fade left>
-                    {/* <img src={coastalSun} alt="by Gavin Spears" /> */}
+                    <img src={redwood} alt="by Dave Herring" />
                 </Fade>
                 <Fade right>
                     <div id="treatment-four-text">
@@ -63,8 +63,8 @@ function Treatment() {
                         <li>Beach/lake activities</li>
                         <li>Miniature Golf</li>
                         <li>Bonfires</li>
-                        <li>Amusement Parks (Knott’s Berry Farm, Disneyland, Magic Mountain)</li>
-                        <li>Sporting events (Major League Baseball, National Hockey League, etc.)</li>
+                        <li>Amusement Parks</li>
+                        <li>Sporting events</li>
                         <li>Hiking/Nature walks</li>
                         <li>Community pool</li>
                         <li>Sober events/fundraisers </li>

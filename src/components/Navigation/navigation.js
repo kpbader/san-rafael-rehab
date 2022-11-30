@@ -17,11 +17,11 @@ function Navigation() {
     return (
         <section id="nav-bar">
             {/* <img src={logo} alt="logo" /> */}
-            {/* <header>Beach Street Rehab</header>  */}
+            <header>San Rafael Rehab</header> 
             <Nav id="main-nav-links">
                 <Nav.Item>
                     <Nav.Link>
-                        <Link to="/beach-street-rehab/" className="header-nav-tab">Home</Link>
+                        <Link to="/" className="header-nav-tab">Home</Link>
                     </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>

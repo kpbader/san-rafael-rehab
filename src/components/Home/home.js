@@ -1,5 +1,5 @@
 import './home.css';
-// import beachVideo from '../../assets/video/beachStreetSplash.mp4';
+import beachVideo from '../../assets/video/PexelsVideos4329.mp4';
 import Fade from 'react-reveal/Fade';
 import Card from 'react-bootstrap/Card';
 import { Link } from 'react-router-dom';
@@ -24,10 +24,10 @@ function Home() {
     return (
         <section id="home-page">
             <div id="home-splash">
-            {/* <video src={beachVideo} autoPlay muted loop playsInline className='video-bg' />  */}
+            <video src={beachVideo} autoPlay muted loop playsInline className='video-bg' /> 
                 <Fade up>
                     <div id="splash-text">
-                    <h2>The road to recovery starts on Beach Street</h2>
+                    <h2>Recovery. Healing. Strength.</h2>
                     <button id="cta-btn">
                         <Link to="/contact" onClick={scrollToTop}>Get started</Link>
                     </button>  

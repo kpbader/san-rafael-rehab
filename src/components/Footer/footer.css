@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     padding: 30px;
-    background-color: rgb(90, 178, 250);
+    background-color: rgb(42, 29, 59);
     justify-content: space-between;
     /* margin: 0px !important; */
     border-top: 1px solid white;
@@ -13,9 +13,14 @@
     width: 25%;
 }
 
-/* #footer h2 {
+#footer h2 {
     color: white;
-} */
+    font-size: 30px;
+    font-weight: lighter;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+}
 
 #footer-links a {
     color: white;

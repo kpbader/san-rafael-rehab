@@ -15,7 +15,7 @@ function Footer () {
 
     return (
         <section id="footer">
-        {/* <img src={footerLogo} alt="logo"/> */}
+        <h2>San Rafael Rehab</h2>
         <Nav id="footer-links">
             <Nav.Item>
                 <Nav.Link>
