@@ -118,3 +118,198 @@
     font-size: 18px;
     padding: 10px;
 }
+
+  /* Extra small devices */
+  @media only screen and (min-width: 320px) and (max-width: 479px) {
+    #treatment-top p {
+        width: 100%;
+    }
+
+    #treatment-two {
+        padding: 60px;
+    }
+
+    #treatment-two img {
+        display: none;
+    }
+
+    #treatment-two-text {
+        width: 100%;
+        padding: 0px;
+    }
+
+    #treatment-two-text h2 {
+        font-size: 27px;
+    }
+
+    /* #treatment-two-text p {
+        font-size: 15px;
+    }
+
+    #treatment-two-text li {
+        font-size: 13px;
+    } */
+
+    #treatment-three img {
+        display: none;
+    }
+
+    #treatment-three-text {
+        width: 100%;
+        padding: 0px;
+    }
+
+    #treatment-three-text h2 {
+        font-size: 30px;
+    }
+
+    #treatment-four img {
+        display: none;
+    }
+
+    #treatment-four-text {
+        width: 100%;
+        padding: 0px;
+    }
+
+    #treatment-four-text h2 {
+        font-size: 30px;
+    }
+
+}
+
+/* Portrait tablets and large phones*/
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+    #treatment-top p {
+        width: 100%;
+    }
+
+    #treatment-two {
+        padding: 60px;
+    }
+
+    #treatment-two img {
+        display: none;
+    }
+
+    #treatment-two-text {
+        width: 100%;
+        padding: 0px;
+    }
+
+    #treatment-two-text h2 {
+        font-size: 27px;
+    }
+
+    /* #treatment-two-text p {
+        font-size: 15px;
+    }
+
+    #treatment-two-text li {
+        font-size: 13px;
+    } */
+
+    #treatment-three img {
+        display: none;
+    }
+
+    #treatment-three-text {
+        width: 100%;
+        padding: 0px;
+    }
+
+    #treatment-three-text h2 {
+        font-size: 30px;
+    }
+
+    #treatment-four img {
+        display: none;
+    }
+
+    #treatment-four-text {
+        width: 100%;
+        padding: 0px;
+    }
+
+    #treatment-four-text h2 {
+        font-size: 30px;
+    }
+
+}
+
+/* Landscape tablets */
+@media only screen and (min-width: 769px) and (max-width: 900px) {
+    /* #treatment-top p {
+        width: 100%;
+    } */
+
+    #treatment-two {
+        padding: 60px;
+    }
+
+    #treatment-two img {
+        width: 100%;
+        height: 100%;
+        padding-right: 25px;
+    }
+
+    #treatment-two-text {
+        width: 75%;
+        padding: 25px;
+    }
+
+    #treatment-two-text h2 {
+        font-size: 27px;
+    }
+
+    #treatment-two-text p {
+        font-size: 15px;
+    }
+
+    #treatment-two-text li {
+        font-size: 13px;
+    }
+
+    #treatment-three img {
+        width: 100%;
+        height: 100%;
+        padding-left: 25px;
+    }
+
+    #treatment-three-text {
+        width: 75%;
+        padding: 25px;
+    }
+
+    #treatment-three-text h2 {
+        font-size: 30px;
+    }
+
+    #treatment-three-text p {
+        font-size: 15px;
+    }
+
+    #treatment-four img {
+        width: 100%;
+        height: 100%;
+        padding-right: 25px;
+    }
+
+    #treatment-four-text {
+        width: 100%;
+        padding: 25px;
+    }
+
+    #treatment-four-text h2 {
+        font-size: 27px;
+    }
+
+    #treatment-four-text p {
+        font-size: 15px;
+    }
+
+    #treatment-four-text li {
+        font-size: 13px;
+    }
+
+}

@@ -12,6 +12,7 @@ header {
   border: 2px solid white;
     border-radius: 10px;
     padding: 10px;
+    align-items: center;
 }
 
 /* #nav-bar header {
@@ -63,7 +64,7 @@ header {
     flex-direction: column;
     max-width: 100%;
     visibility: hidden;
-    background-color: rgb(90, 178, 250);
+    background-color: rgb(42, 29, 59);
     background-clip: padding-box;
     outline: 0;
     transition: transform 0.3s ease-in-out;
@@ -87,7 +88,12 @@ header {
   .offcanvas-header {
     position: absolute;
     padding: 10px;
+    
   }
+
+  /* .offcanvas-header button {
+    color: white !important;
+  } */
   
   .tabpanel {
     padding: 30px;
@@ -111,14 +117,16 @@ header {
   
   .btn-close {
     box-sizing: content-box;
-    width: 2em;
-    height: 2em;
+    width: 1em;
+    height: 1em;
     padding: 0.25em;
-    color: #000;
     background: transparent url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3E%3Cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3E%3C/svg%3E") 50%/1em auto no-repeat;
     border: 0;
     border-radius: 0.25rem;
+    background-color: #fff;
+    
   }
+
   
   .btn-close:hover {
     cursor: pointer;
@@ -138,3 +146,58 @@ header {
     color: silver !important;
     transition: 0.3s;
   }
+
+  /* Extra small devices */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+
+  #nav-bar {
+    justify-content: space-between;
+  }
+
+  header {
+    font-size: 25px;
+  }
+
+  #main-nav-links {
+    display: none;
+  }
+
+  #hamburger-btn {
+    display: contents;
+  }
+}
+
+/* Portrait tablets and large phones*/
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+
+  #nav-bar {
+    justify-content: space-between;
+  }
+
+
+  #main-nav-links {
+    display: none;
+  }
+
+  #hamburger-btn {
+    display: contents;
+  }
+}
+
+/* Landscape tablets */
+@media only screen and (min-width: 769px) and (max-width: 900px) {
+
+  #nav-bar {
+    justify-content: space-between;
+  }
+
+  #main-nav-links {
+    display: none;
+  }
+
+  #hamburger-btn {
+    display: contents;
+  }
+}
+
+

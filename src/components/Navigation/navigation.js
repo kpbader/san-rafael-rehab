@@ -6,6 +6,7 @@ import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 
+
 function Navigation() {
 
     // offCanvas 
@@ -21,7 +22,7 @@ function Navigation() {
             <Nav id="main-nav-links">
                 <Nav.Item>
                     <Nav.Link>
-                        <Link to="/" className="header-nav-tab">Home</Link>
+                        <Link to="/san-rafael-rehab" className="header-nav-tab">Home</Link>
                     </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
@@ -58,7 +59,7 @@ function Navigation() {
 
 
             <Offcanvas placement="end" show={show} onHide={handleClose}>
-                <Offcanvas.Header closeButton />
+                <Offcanvas.Header closeButton/>
                 <Offcanvas.Body>
                     <section id="nav-tabs">
                         <ul className="tabpanel">

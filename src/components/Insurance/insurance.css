@@ -23,9 +23,9 @@
   }
 
   #insurance-contact-btn {
-    background-color: transparent;
+    background-color: rgb(116, 81, 163);
     border: 2px solid;
-    border-radius: 5px;
+    border-radius: 20px;
     padding: 12px;
     color: white;
     font-weight: bold;
@@ -40,7 +40,7 @@
   
   #insurance-contact-btn:hover {
     color: silver;
-    background-color: silver;
+    background-color: transparent;
     transition: 0.5s ease;
   }
 
@@ -57,3 +57,48 @@
     height: 15%;
     width: 15%;
   }
+
+    /* Extra small devices */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+
+  #insurance-top {
+    padding: 25px;
+  }
+
+  #insurance-top-text {
+    width: 75%;
+    padding: 50px;
+  }
+
+  #insurance-contact-btn {
+    padding: 10px;
+    font-size: 15px;
+  }
+
+  #insurance-logos img {
+    padding: 50px;
+    height: 85%;
+    width: 85%;
+  }
+
+}
+
+/* Portrait tablets and large phones*/
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+
+  #insurance-logos img {
+    padding: 50px;
+    height: 40%;
+    width: 40%;
+  }
+
+}
+
+/* Landscape tablets */
+@media only screen and (min-width: 769px) and (max-width: 900px) {
+  #insurance-logos img {
+    padding: 50px;
+    height: 40%;
+    width: 40%;
+  }
+}

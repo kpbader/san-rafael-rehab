@@ -14,7 +14,7 @@
       margin: 0px;
   }
    */
-  #contact-container {
+  #cp-contact-container {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -118,3 +118,60 @@
   .contact-info-line p {
       padding-left: 10px;
   }
+
+    /* Extra small devices */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    #cp-contact-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #cp-contact-container #contact-form {
+        width: 60%;
+    }
+
+    #cp-google-map {
+        width: 300px;
+        height: 300px;
+        margin-bottom: 50px;
+    }
+}
+
+/* Portrait tablets and large phones*/
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+
+    #cp-contact-container #contact-form {
+        width: 30%;
+    }
+
+    #form-slot-3 textarea {
+        width: 90%;
+    }
+
+    #cp-google-map {
+        width: 300px;
+        height: 300px;
+        margin-bottom: 50px;
+    }
+}
+
+/* Landscape tablets */
+@media only screen and (min-width: 769px) and (max-width: 900px) {
+
+    
+  
+    #cp-contact-container #contact-form {
+        width: 30%;
+    }
+
+    #form-slot-3 textarea {
+        width: 90%;
+    }
+
+    #cp-google-map {
+        width: 300px;
+        height: 300px;
+        margin-bottom: 50px;
+    }
+
+}

@@ -1,3 +1,24 @@
 * {
   font-family: Futura, Helvetica;
 }
+
+    /* Extra small devices */
+    @media only screen and (min-width: 320px) and (max-width: 479px) {
+      * {
+        overflow: scroll;
+      }
+    }
+    
+    /* Portrait tablets and large phones*/
+    @media only screen and (min-width: 480px) and (max-width: 768px) {
+      * {
+        overflow: scroll;
+      }
+    }
+    
+    /* Landscape tablets */
+    @media only screen and (min-width: 769px) and (max-width: 900px) {
+      * {
+        overflow: scroll;
+      }
+    }
