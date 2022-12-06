@@ -1,11 +1,10 @@
 import './home.css';
-import beachVideo from '../../assets/video/PexelsVideos4329.mp4';
+import beachVideo from '../../assets/video/rolling-hills.mp4';
 import Fade from 'react-reveal/Fade';
 import Card from 'react-bootstrap/Card';
 import { Link } from 'react-router-dom';
 import { HiUserGroup } from "react-icons/hi";
 import { FaHandHoldingHeart, FaBriefcaseMedical } from "react-icons/fa";
-import { useState, useRef } from 'react';
 import BottomContact from '../Bottom-Contact/bottom-contact';
 
 function Home() {

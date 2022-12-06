@@ -12,12 +12,13 @@
   #splash-text h2 {
     font-size: 40px;
     font-weight: lighter;
-    color: white;
+    color: rgb(116, 81, 163);
   }
 
 video {
   width: 100%;
   height: 100%;
+  
 }
 
 #cta-btn {

@@ -1,36 +1,16 @@
 import './contact.css';
 import Fade from 'react-reveal/Fade';
-import { BsEnvelope, BsTelephone } from 'react-icons/bs';
-import { SlLocationPin } from "react-icons/sl";
-import { useState, useRef } from 'react';
+// import { BsEnvelope, BsTelephone } from 'react-icons/bs';
+// import { SlLocationPin } from "react-icons/sl";
+import ContactForm from '../Contact-Form/contact-form';
 
 function Contact() {
-
-    const form = useRef();
-    const [contactForm, setContactForm] = useState({ name: '', email: '', message: '' });
-    const { name, email, message } = contactForm;
-    const [errorMessage, setErrorMessage] = useState('');
 
     return (
         <section id="contact-page">
             <div id="cp-contact-container">
                 <Fade left>
-                    <form id="contact-form">
-                        <p id="hp-contact-form-header">Reach Out</p>
-                        <div id="form-slot-1">
-                            <label htmlFor="name">Name</label>
-                            <input type="text" defaultValue={name} name="name" />
-                        </div>
-                        <div id="form-slot-2">
-                            <label htmlFor="email">Email</label>
-                            <input type="email" defaultValue={email} name="email" />
-                        </div>
-                        <div id="form-slot-3">
-                            <label htmlFor="message">Message</label>
-                            <textarea name="message" defaultValue={message} rows="10" cols="45" />
-                        </div>
-                        <button type="submit" className="contact-submit-btn">Submit</button>
-                    </form>
+                    <ContactForm />
                 </Fade>
                 <Fade right>
                     <div id="info-and-map">

@@ -1,6 +1,5 @@
 import './about.css';
 import Fade from 'react-reveal/Fade';
-import { useState, useRef } from 'react';
 import BottomContact from '../Bottom-Contact/bottom-contact';
 
 function About() {
