@@ -11,19 +11,30 @@
   padding: 75px;
 }
 
-#about-top h2 {
-    font-size: 44px;
-    font-weight: lighter;
+#about-top-text {
+  padding: 50px;
+  width: 50%;
 }
 
-#about-top p {
-    font-size: 25px;
+#about-top-text h2 {
+  color: white;
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+#about-top-text p {
+  color: white;
+  font-size: 22px;
 }
 
   /* Extra small devices */
   @media only screen and (min-width: 320px) and (max-width: 479px) {
 
-  
+    #about-top-text {
+      padding: 0px;
+      width: 100%;
+      
+    }
   }
   
   /* Portrait tablets and large phones*/

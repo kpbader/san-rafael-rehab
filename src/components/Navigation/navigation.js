@@ -1,7 +1,7 @@
 import './navigation.css';
 import { Link } from 'react-router-dom';
 import Nav from 'react-bootstrap/Nav';
-// import logo from "../../assets/images/Beach Street Rehab-01-01-01.png";
+import logo from "../../assets/images/san-rafael-logo-white-01.png";
 import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
@@ -17,8 +17,8 @@ function Navigation() {
 
     return (
         <section id="nav-bar">
-            {/* <img src={logo} alt="logo" /> */}
-            <header>San Rafael Rehab</header> 
+            <img src={logo} alt="logo" />
+            {/* <header>San Rafael Rehab</header>  */}
             <Nav id="main-nav-links">
                 <Nav.Item>
                     <Nav.Link>

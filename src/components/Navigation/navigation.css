@@ -3,27 +3,12 @@
     background-color: rgb(42, 29, 59);
     justify-content: space-around;
     align-items: center;
-    padding: 30px;
+    padding: 25px;
 }
-
-header {
-  font-size: 40px;
-  color: white;
-  border: 2px solid white;
-    border-radius: 10px;
-    padding: 10px;
-    align-items: center;
-}
-
-/* #nav-bar header {
-    font-size: 40px;
-    color: white;
-    padding: 30px;
-} */
 
 #nav-bar img {
-    width: 25%;
-    height: 25%;
+    width: 200px;
+    height: 185px;
 }
 
 #main-nav-links {
@@ -32,7 +17,7 @@ header {
 
 #main-nav-links a {
     padding: 20px;
-    font-size: 20px;
+    font-size: 22px;
     color: white;
     text-decoration: none;
 }
@@ -52,11 +37,6 @@ header {
   .offcanvas {
     height: 350px !important;
     width: 200px !important;
-    /* display: flex;
-      flex-direction: row;
-      justify-content: flex-end;
-      top: 0;
-      right: 0; */
     position: fixed;
     bottom: 0;
     z-index: 1045;
@@ -81,7 +61,7 @@ header {
     top: 0;
     right: 0;
     width: 250px;
-    border-left: 1pxsolidrgba(0,0,0,.2);
+    border-left: 1px solid rgba(0,0,0,.2);
     transform: translateX(100%)
   }
   
@@ -90,10 +70,6 @@ header {
     padding: 10px;
     
   }
-
-  /* .offcanvas-header button {
-    color: white !important;
-  } */
   
   .tabpanel {
     padding: 30px;
@@ -109,11 +85,7 @@ header {
     transition: 0.5s;
     text-align: left;
   }
-  
-  /* .tabpanel a:hover {
-    color: silver;
-    cursor: pointer;
-  } */
+
   
   .btn-close {
     box-sizing: content-box;
@@ -154,8 +126,9 @@ header {
     justify-content: space-between;
   }
 
-  header {
-    font-size: 25px;
+  #nav-bar img {
+    width: 40%;
+    height: 40%;
   }
 
   #main-nav-links {

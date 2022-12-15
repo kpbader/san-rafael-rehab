@@ -35,6 +35,7 @@ video {
 #cta-btn:hover {
   background-color: transparent;
     transition: 0.5s ease;
+    color: rgb(42, 29, 59);
 }
 
 #cta-btn a {
@@ -45,6 +46,7 @@ video {
 #cta-btn a:hover {
   color: silver;
     transition: 0.5s ease;
+    color: rgb(42, 29, 59);
 }
 
 #our-services {
